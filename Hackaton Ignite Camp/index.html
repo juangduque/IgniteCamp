@@ -19,6 +19,10 @@
   <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.css" rel="stylesheet">
 
+  <!-- link calendar resources -->
+	<link rel="stylesheet" type="text/css" href="tcal.css" />
+	<script type="text/javascript" src="tcal.js"></script> 
+
 </head>
 
 <body id="page-top">
@@ -566,11 +570,40 @@
                 </div>
               </div>
             </div>
+
+            <!-- Consultar fecha de vacaciones -->
+            <form>
+              <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                <h1 class="h3 mb-0 text-gray-800">Consultar fechas de vacaciones </h1>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Ingrese el nombre del trabajador</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">Seleccione la fecha inicial que quiere revisar.</small>
+              </div>              
+              <div>
+                <span>
+                  <!-- Calendario inicial -->
+                  <form action="#">
+                    <div><input type="text text-center" name="date" class="tcal" value="" /></div>
+                    <br>
+                    <small id="emailHelp" class="form-text text-muted">Seleccione la fecha final que quiere revisar.</small>
+                    <div><input type="text text-center" name="date" class="tcal" value="" /></div>
+                    <br>
+                    <button class="btn btn-primary">Buscar</button>
+                  </form>
+                </span>
+              </div>
+            </form>
+            
         </div>
         <!-- /.container-fluid -->
-
+        
       </div>
       <!-- End of Main Content -->
+
+      <!-- Calendario -->
+      
 
       <!-- Footer -->
       <footer class="sticky-footer bg-white">
