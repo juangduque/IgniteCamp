@@ -29,6 +29,10 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.carousel .item {
+  height: 100px;
+}
+
 *,
 *::before,
 *::after {
