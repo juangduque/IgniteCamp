@@ -14,3 +14,11 @@ Formally the project were named Xamay, which means "rest" in Quechua language. T
 ![mainVIewXamay](https://user-images.githubusercontent.com/43974127/110966553-5b130800-8323-11eb-8182-fc35d6096671.png)
 
 As you can see, the data of the main suggestions is showed in a table, the critical data is displayed in red to indicates to the manager the urgency of each case.
+
+## License
+
+The curred state of the project is under [MIT license](https://opensource.org/licenses/MIT).
+
+## Final note
+
+With this project with my team won the hackathon.
