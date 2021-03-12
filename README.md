@@ -17,7 +17,7 @@ As you can see, the data of the main suggestions is showed in a table, the criti
 
 ## License
 
-The curred state of the project is under [MIT license](https://opensource.org/licenses/MIT).
+The current state of the project is under [MIT license](https://opensource.org/licenses/MIT).
 
 ## Final note
 
